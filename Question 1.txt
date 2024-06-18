@@ -1,0 +1,61 @@
+Quiver Query
+
+Problem Statement:- Hawkeye is clearly outmatched against Thanos's Army. Also in the battle, his quiver is partially damaged and he cannot cycle his arrows at will. Given the configuration of arrows, answer the following queries as "YES" or "NO".Note that the queries are independent of each other.
+Given query (i,j)
+Answer YES if we can use an arrow 'j' after using 'i'.
+Answer NO if we cannot use arrow 'j' after 'i'.
+
+Input 1:- 
+12 5
+1 7 3 5 8 9 3 2 5 7 1 6 
+8 1
+2 3
+1 5
+6 9
+9 6
+
+Output 1:-
+YES 
+NO
+YES
+NO
+YES
+
+Explanation:-
+Case 1:- as we can reach arrow 1 in 10th index after arrow 1 in the 4th index.
+Case 3:- as we can reach arrow 5 in 3rd index after arrow 1 in the 0th index
+Case 5:- as we can reach arrow 6 in 11th index after arrow 9 in the 5th index
+
+Input 2:-
+7 6
+1 6 9 3 5 8 2
+1 9
+9 1
+2 8
+3 6
+4 1
+3 2
+
+Output 2:-
+YES
+NO
+NO
+NO
+NO
+YES
+
+Input 3:-
+11 4
+1 5 8 3 6 9 4 1 7 4 6 
+1 7
+7 6
+6 7
+9 3
+
+Output:- 
+YES
+YES
+YES
+NO
+
+
