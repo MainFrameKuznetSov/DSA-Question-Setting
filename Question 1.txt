@@ -65,39 +65,9 @@ YES
 YES
 NO
 
-Solution:- 
-
-void solve()
-{
-    //Your Code starts here
-    int n,k;
-    cin>>n>>k;
-    vector<int>vect(n);
-    map<int,int>fapp,lapp;
-    for(int i=0;i<n;++i)
-        cin>>vect[i];
-    for(int i=0;i<n;++i)
-    {
-        lapp[vect[i]]=i;
-        fapp[vect[n-i-1]]=n-i-1;
-    }
-    for(int i;i<k;++i)
-    {
-        int a,b;
-        cin>>a>>b;
-        if(fapp.find(a)==fapp.end() || lapp.find(b)==lapp.end())
-        {
-            cout<<"NO\n";
-            continue;
-        }
-        int l=fapp[a],r=lapp[b];
-        //cout<<l<<","<<r;
-        l<r?cout<<"YES\n":cout<<"NO\n"; 
-    }
-}
 
 Explanation
-'fapp' maps an arrow to it's first appearance.
-'lapp' maps an arrow to it's last appearance.
+Create a map 'fapp' that maps an arrow to it's first appearance.
+Create a map 'lapp' that maps an arrow to it's last appearance.
 
 if last appearance the 'j' arrow is greater than the first appearance of 'i' arrow, we display 'YES' and 'NO' otherwise
