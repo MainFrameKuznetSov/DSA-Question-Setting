@@ -1,0 +1,37 @@
+Loki with the help of Ouroboros has figured out how to use the Infinity Stones in the TVA to defeat He Who Remains. However, you have to help him to do so fast. Since Infinity stones from multiple universes are here, all work in synergy with each other but only when the same ones are used consecutively can their power be harnessed. It takes no time to sweep across the stones. But when selecting a stone, it takes one second to go to the next stone. Given the configuration of stones, find the least time taken to harness the power of all stones. Note, atleast two stones of same type exist in each test case.
+
+Input method:- 
+First line contains N, the no. of stones present now. 1<=N<=8e6
+Next lines contains an array of the stones. 1<=A[i]<=6, 0<=i<n
+
+Input 1:-
+13
+3 5 6 2 2 1 2 4 4 5 1 6 3
+
+Output 1:-
+36
+
+Explanation:- 
+For combining stone 1 it takes 5 seconds(10th index to 5th index)
+For combining stone 2 it takes 1 second(4th index to 3th index)
+For combining stone 3 it takes 12 seconds(12th index to 0th index)
+For combining stone 4 it takes 1 second(8th index to 7th index)
+For combining stone 5 it takes 8 seconds(9th index to 1st index)
+For combining stone 6 it takes 9 seconds(11th index to 2nd index)
+
+Input 2:-
+17
+2 4 4 4 3 3 1 6 5 3 6 5 2 3 6 6 1
+
+Output 3:-
+28
+
+Input 3:-
+31
+6 6 6 5 4 6 3 4 3 2 3 4 1 4 1 5 6 6 5 3 5 5 6 3 5 2 2 5 1 1 1
+
+Output 3:-
+8
+
+
+
