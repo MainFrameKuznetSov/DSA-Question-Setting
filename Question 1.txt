@@ -32,7 +32,7 @@ NO
 YES
 
 Explanation:-
-Case 1:- as we can reach arrow 1 in 10th index after arrow 1 in the 4th index.
+Case 1:- as we can reach arrow 1 in 10th index after arrow 8 in the 4th index.
 Case 3:- as we can reach arrow 5 in 3rd index after arrow 1 in the 0th index
 Case 5:- as we can reach arrow 6 in 11th index after arrow 9 in the 5th index
 
