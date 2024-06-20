@@ -73,7 +73,7 @@ void solve()
         lapp[vect[i]]=i;
         fapp[vect[n-i-1]]=n-i-1;
     }
-    for(int i;i<k;++i)
+    for(int i=0;i<k;++i)
     {
         int a,b;
         cin>>a>>b;
