@@ -1,6 +1,9 @@
 Quiver Query
 
-Problem Statement:- Hawkeye is clearly outmatched against Thanos's Army. Also in the battle, his quiver is partially damaged and he cannot cycle his arrows at will. Given the configuration of arrows, answer the following queries as "YES" or "NO". Note that the queries are independent of each other.
+Problem Statement:- Hawkeye is clearly outmatched against Thanos's Army. 
+Also in the battle, his quiver is partially damaged and he cannot cycle his arrows at will. G
+iven the configuration of arrows, answer the following queries as "YES" or "NO". 
+Note that the queries are independent of each other.
 
 Input Method:-
 The first line contains the length no. of arrows followed by the no. of queries separated by space.
